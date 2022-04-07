@@ -27,6 +27,8 @@ Route::middleware('auth')
 
         //Definisco le rotte per i post con il PostController nel namespace ADMIN
         Route::resource('posts', 'PostController');
+
+        Route::resource('category', 'CategoryController');
     });
     
 //Dopodiché devo andare a modificare la rotta home in admin in App/Providers/RouteServiceProvider perché punti, dopo il login, ad admin
