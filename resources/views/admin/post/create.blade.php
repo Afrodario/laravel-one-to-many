@@ -38,7 +38,7 @@
 
                     <button type="submit" class="btn btn-primary">Salva post</button>
 
-                  </form>
+                </form>
             </div>
         </div>
     </div>
